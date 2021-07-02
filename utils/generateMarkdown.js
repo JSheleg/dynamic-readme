@@ -22,7 +22,7 @@ function renderLicenseSection(license) {
   if (license !== 'None') {
     return `## License
 
-This project is licensed under the ${license} license.`;
+    This project is licensed under the ${license} license.`;
   }
   return '';
 
@@ -33,34 +33,40 @@ function generateMarkdown(data) {
   return `
   # ${data.title} ${renderLicenseBadge(data.license)}
 
-  ## Description:
+  ## Description
   ${data.description}  
 
-  ## Table of Contents:
-    * 
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
  
-  ## Installation:
-    * ${data.step}
+  ## Installation
+  * ${data.step}
 
-  ## Usage:
-    
+  ## Usage
+  ${data.usage}
 
 
-  ## License:
-    ${renderLicenseSection(data.license)}
-    ${renderLicenseLink(data.license)}
+  ${renderLicenseSection(data.license)} description
+  ${renderLicenseLink(data.license)} license link
 
-  ## Contributing: 
+  ## Contributors
+  ${data.contributors} 
 
-  ## Tests:
+  ## Tests
+  ${data.tests}
 
-  ## Questions:
-    ### For questions in regards to my generated readme, please reach out at:
-      * ${data.name}
-      * Email:  ${data.email}
-      * Github Link: https://github.com/${data.username} 
-  
+  ## Questions
+  ### For questions in regards to my code, please reach out at:
+    * ${data.name}
+    * Email: ${data.email}
+    * Github Link: https://github.com/${data.username} 
+
   
 `;
 }
