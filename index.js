@@ -6,6 +6,7 @@ const markdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
+    
     {
         type: 'input',
         name: 'title',
@@ -16,6 +17,20 @@ const questions = [
             }
             else{
                 console.log("Please enter a title");
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'name',
+        message: 'What is your name? (Required)',
+        validate: nameInput => {
+            if(nameInput){
+                return true;
+            }
+            else{
+                console.log("Please enter your name");
                 return false;
             }
         }
@@ -53,7 +68,7 @@ const questions = [
     {
         type: 'input',
         name: 'step',
-        message: "What's the next step in installing this project?",
+        message: "What are the steps to installing this project?",
         when:({installation}) =>{
             if(installation){
                 return true;
@@ -62,6 +77,16 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: ' What are the usages of this program?'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What command is need to run test cases?'
     },
     {
         type: 'checkbox',
