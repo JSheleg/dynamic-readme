@@ -46,26 +46,25 @@ function generateMarkdown(data) {
 
  
   ## Installation
-  * ${data.step}
+  ${data.step}
 
   ## Usage
   ${data.usage}
 
 
-  ${renderLicenseSection(data.license)} description
-  ${renderLicenseLink(data.license)} license link
+  ${renderLicenseSection(data.license)} ${renderLicenseLink(data.license)}
 
-  ## Contributors
+ ## Contributors
   ${data.contributors} 
 
-  ## Tests
+ ## Tests
   ${data.tests}
 
-  ## Questions
-  ### For questions in regards to my code, please reach out at:
-    * ${data.name}
-    * Email: ${data.email}
-    * Github Link: https://github.com/${data.username} 
+ ## Questions
+ ### For questions in regards to my code, please reach out at:
+  * ${data.name}
+  * Email: ${data.email}
+  * Github Link: https://github.com/${data.username} 
 
   
 `;

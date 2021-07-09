@@ -1,8 +1,8 @@
 
-  # ReadMe Generator ![GitHub license](https://img.shields.io/badge/license-Mozilla-blue.svg)
+  # Run Buddy ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,  
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.  
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,29 +14,28 @@
 
  
   ## Installation
-  * undefined
+  npm i
 
   ## Usage
-  optio, eaque rerum!
+  Build a professional readme.md
 
 
   ## License
 
-    This project is licensed under the Mozilla license. description
-  * 
+    This project is licensed under the MIT license. 
 * [License](#license)
- license link
 
-  ## Contributors
-  Jessica and Ben 
 
-  ## Tests
-  olor sit amet consectetur adipisicing elit
+ ## Contributors
+  Jessica and Waldo 
 
-  ## Questions
-  ### For questions in regards to my code, please reach out at:
-    * Jessica
-    * Email: jessica.sheleg@gmail.com
-    * Github Link: https://github.com/jsheleg 
+ ## Tests
+  npm run test
+
+ ## Questions
+ ### For questions in regards to my code, please reach out at:
+  * Jessica Sheleg
+  * Email: jessica.sheleg@gmail.com
+  * Github Link: https://github.com/jsheleg 
 
   
