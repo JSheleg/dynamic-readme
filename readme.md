@@ -2,7 +2,7 @@
   # Run Buddy ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  Lorem ipsum dolor sit amet consectetur adipisicing elit.  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur  
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,10 +14,10 @@
 
  
   ## Installation
-  npm i
+  npm install
 
   ## Usage
-  Build a professional readme.md
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
 
 
   ## License
@@ -27,15 +27,15 @@
 
 
  ## Contributors
-  Jessica and Waldo 
+  Jessica, Waldo, Brian 
 
  ## Tests
-  npm run test
+  node test
 
  ## Questions
  ### For questions in regards to my code, please reach out at:
-  * Jessica Sheleg
-  * Email: jessica.sheleg@gmail.com
+  * Jessica
+  * Email: jessica@codingisAwesome.com
   * Github Link: https://github.com/jsheleg 
 
   
